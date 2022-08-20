@@ -43,6 +43,7 @@ document.getElementById("percentageBtn").onclick = function(){
   document.getElementById("percentageBtn").style.visibility = "hidden";
   document.getElementById("cgpaBtn").style.visibility = "hidden";
   document.getElementById("convertParagraph").innerHTML = "You are converting to Percentage";
+  document.getElementById("resultParagraph").innerHTML = "Your result percentage is......"
   document.getElementById("submitButton").onclick = function(){
     totalLessons = document.getElementById("totalLessons").value;
     totalLessons = Number(totalLessons);
