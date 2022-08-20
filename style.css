@@ -1,0 +1,54 @@
+body{
+  background-image: url("images/660513.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  text-align: center;
+  align-content: center;
+}
+
+h1{
+  color: aqua;
+}
+
+#userName{
+  color: burlywood;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: none;
+  border: none;
+  font-size: 35px;
+}
+
+#calculator_wrapper, #summaryPageWrapper{
+  background-color: red;
+  height: 70%;
+  width: 50%;
+  margin: 3.125rem auto 0 auto;
+}
+
+#calculator, #summaryPage{
+  background-color: rgb(152, 207, 152);
+  height: 50%;
+  width: 80%;
+  align-content: center;
+  text-align: center;
+  padding-top: 0%;
+ }
+
+ #restartBtn{
+  background-color: rgb(152, 207, 152);
+  margin-left: 0%;
+ }
+
+ #percentageBtn{
+  background-color: rgb(90, 211, 90);
+ }
+
+ #cgpaBtn{
+  background-color: rgb(61, 165, 61);
+ }
+
+ a{
+  text-decoration: none;
+  color: rgb(47, 68, 107);
+ }

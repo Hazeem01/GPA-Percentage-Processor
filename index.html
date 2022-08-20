@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Test Percentage</title>
+</head>
+<body>
+  <h1 id="header">WELCOME <button type="button" id="userName"></button>, LET'S CALCULATE YOUR RESULTS!</h1>
+  <div id="calculator_wrapper">
+    <form id="calculator">
+      <h2>Let's Get Started ---></h2>
+      <p id="convertParagraph">What are you converting to ?</p>
+      <button id="percentageBtn" type="button"> Percentage </button>
+      <button id="cgpaBtn" type="button"> CGPA </button><br>
+      <div id="hiddenDiv">
+        <label for="total lessons">Number Of Available Lessons: </label><br>
+        <input id="totalLessons" type="number" name="total lessons" min="0" max="150" value="0"><br>
+        <label for="completed lessons">Total Number Of Completed Lessons: </label><br>
+        <input id="completedLessons" type="number" name="completed lessons" min="0" max="150" value="0"><br>
+        <button type="button" id="submitButton">Calculate Result</button>
+        <p id="resultParagraph">Your result percentage is......</p>
+      </div>
+    </form>
+    <input id="restartBtn" type="reset" value="Restart"><br>
+    <span>&copy;2022</span><br>
+    <span>Hazeem&reg;</span>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
