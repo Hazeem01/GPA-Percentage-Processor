@@ -65,6 +65,7 @@ document.getElementById("cgpaBtn").onclick = function(){
   document.getElementById("percentageBtn").style.visibility = "hidden";
   document.getElementById("cgpaBtn").style.visibility = "hidden";
   document.getElementById("convertParagraph").innerHTML = "You are converting to CGPA";
+  document.getElementById("resultParagraph").innerHTML = "Your result CGPA is......"
   document.getElementById("submitButton").onclick = function(){
     totalLessons = document.getElementById("totalLessons").value;
     totalLessons = Number(totalLessons)
